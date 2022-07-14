@@ -3,11 +3,11 @@ const FILES_TO_CACHE = [
   "/index.html",
   "/assets/css/styles.css",
   "/assets/js/index.js",
-  "/assets/js/db.js",
+  "/assets/js/idb.js",
 ];
 
-const CACHE_NAME = "static-cache-v1";
-const DATA_CACHE_NAME = "data-cache-v1";
+const CACHE_NAME = "static-cache";
+const DATA_CACHE_NAME = "data-cache";
 
 self.addEventListener("install", (evt) => {
   evt.waitUntil(
